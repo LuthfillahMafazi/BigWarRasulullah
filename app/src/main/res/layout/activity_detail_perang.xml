@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPerangActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/badar"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:gravity="center"
+            android:text="Perang Badar"
+            android:textSize="35dp"/>
+
+        <TextView
+            android:id="@+id/txtDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matamu melemahkanku saat pertama kali kulihatmu dan jujur kutak pernah merasa kutak pernah merasa begini
+oh mungkin inikah cinta pandangan yang pertama namun apa yang ku rasa ini tak biasa jika benar ini cinta mulai dari mana oh dari mana
+jret dari mataamu matamu kumulai jatuh cinta ku melihat melihat ada bayangan"
+            android:layout_gravity="center"
+            android:paddingTop="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
